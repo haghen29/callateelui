@@ -1,0 +1,24 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Dependencias
+/vendor/
+
+# Logs
+*.log
+
+# Cache / temp files
+/tmp/
+/cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+# IDE / editor files
+.vscode/
+.idea/

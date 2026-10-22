@@ -1,0 +1,8 @@
+CREATE TABLE usuarios (
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    rol VARCHAR(100) NOT NULL,
+    gmail VARCHAR(255) NOT NULL UNIQUE,
+    telefono VARCHAR(30) NOT NULL,
+    direccion VARCHAR(255) NOT NULL
+);
